@@ -115,8 +115,8 @@ class _RulePageState extends State<RulePage> {
                                   isSelected
                                       ? data['housing_rules_eng']
                                       : data['housing_rules_myan'],
-                                  style: TextStyle(
-                                      fontSize: 15, color: Colors.blue),
+                                  // style: TextStyle(
+                                  //     fontSize: 15, color: Colors.blue),
                                 ),
                               );
                             },

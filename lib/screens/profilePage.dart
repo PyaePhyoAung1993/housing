@@ -60,7 +60,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
             Container(
               margin: EdgeInsets.only(top: 100, left: 20, right: 20),
-              height: 400,
+              height: MediaQuery.of(context).size.height / 1.8,
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
